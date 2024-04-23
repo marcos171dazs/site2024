@@ -1,97 +1,64 @@
 @charset "UTF-8";
-
 body
 {
-    background-image: linear-gradient(60deg, silver, black );
-    color: black;
-    font-size: 12pt;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-    text-decoration: none;
+height: 400px;
+width: 100%;
+background-color: rgb(81, 82, 79);
+color: red;
+font-size: 12pt;
+font-family:Arial, Helvetica, sans-serif;
+text-align: center;
+text-decoration: none;
 }
 
 h1
 {   
-    background-image: linear-gradient(270deg, silver, black  );
-    background-color: aqua;
-    color: white;
-    font-size: 30pt;
-    font-family:Arial;
-    text-align: center;
+background-image: linear-gradient(90deg, white, rgb(81, 82, 79) );
+background-color: aqua;
+color: black;
+font-size: 30pt;
+font-family:Arial;
+text-align: center;
 }
 
 img{
+    width: 500px;
     height: auto;
-    width: 300px;
-}
-
-p
-{
-    color: black;
-    font-size: 16pt;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center; 
 }
 
 h2
 {
-    color: black;
-    font-size: 20pt;
-    font-family:Arial;
-    text-align: center;
-}
-
-h1
-{
-    color: black;
-    font-size: 20pt;
-    font-family:Arial;
-    text-align: left; 
-    text-align: center;  
-}
-
-h3
-{
-    color: black;
-    font-size: 20pt;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-li
-{
-    color: black;
-    font-size: 20pt;
-    font-family:Arial;
-    text-align: center;
+color: white;
+font-size: 20pt;
+font-family:Arial;
+text-align: center;
 }
 
 a
 {
-    color: blue;
-    font-size: 20pt;
-    font-family:Arial;
+color: white;
+font-size: 20pt;
+font-family:Arial;
+text-decoration: none;
+}
+
+
+p
+{
+    color: white;
+    font-size: 16pt;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center; 
+}
+.p1{
+    font-size: 16px;
+    font: arial, sans-serif;
+    color: red;
+}
+.p2
+{
+    font-size: 20px;
+    font: verdana, arial, sans-serif;
+    color:blue;
     text-align: center;
-    text-decoration: none;
-} 
-
-table
-{
-    background-color: white;
-    color: black;
-    font-size: 20pt;
-    font-family:Arial;   
-    table, td, th, tfoot 
-        {
-            border: 3px solid;
-        }  
-    td {color: blue;}
-    text-align: center;  
-    margin: auto;    
 }
-
-table.table tr
-{
-    cursor:pointer;
-}
-
